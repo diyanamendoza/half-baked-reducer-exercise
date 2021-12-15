@@ -2,9 +2,9 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from './App'
 
-const green = `rgb(52, 211, 153)`
-const red = `rgb(239, 68, 68)`
-const pink = `rgb(236, 72, 153)`
+// const green = `rgb(52, 211, 153)`
+// const red = `rgb(239, 68, 68)`
+// const pink = `rgb(236, 72, 153)`
 
 beforeEach(() => {
   render(<App />)
